@@ -8,6 +8,9 @@ void printArray(int *arr, int n)
     {
         std::cout << arr[i] << std::endl;
     }
+
+    arr[0] = 0; // That'll change the main. If want to see arr[0] will be zero at the main.
+    std::cout << arr[0];
 }
 
 int main()

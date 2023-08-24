@@ -2,6 +2,9 @@
 
 int binary_search(int arr[], int n, int key)
 {
+
+    // Time complexitiy O(log 2 tabanında N)
+
     int s = 0;
     int e = n - 1;
 
@@ -19,7 +22,7 @@ int binary_search(int arr[], int n, int key)
         }
         else
         {
-            e = mid +1;
+            e = mid + 1;
         }
     }
 

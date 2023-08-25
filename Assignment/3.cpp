@@ -4,7 +4,7 @@ using namespace std;
 int lowerBound(vector<int> A, int Val)
 {
 
-    int lower = -1;
+    int lower = 0;
 
     for (int x : A)
     {

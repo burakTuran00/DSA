@@ -1,6 +1,6 @@
 #include <iostream>
 
-int linear_search(int arr[], int n, int key)
+int binary_search(int arr[], int n, int key)
 {
 
     // Time complexitiy O(log 2 tabanında N)
@@ -37,7 +37,7 @@ int main()
     int key;
     std::cin >> key;
 
-    int index = linear_search(arr, n, key);
+    int index = binary_search(arr, n, key);
 
     if (index != -1)
     {

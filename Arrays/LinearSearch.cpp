@@ -1,6 +1,6 @@
 #include <iostream>
 
-int binary_search(int arr[], int n, int key)
+int linear_search(int arr[], int n, int key)
 {
     for (int i = 0; i < n; i++)
     {
@@ -21,7 +21,7 @@ int main()
     int key;
     std::cin >> key;
 
-    int index = binary_search(arr, n, key);
+    int index = linear_search(arr, n, key);
 
     if (index != -1)
     {

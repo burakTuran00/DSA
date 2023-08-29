@@ -45,5 +45,18 @@ int main()
         }
     }
 
+    else if (x < 0 && y < 0)
+    {
+        while (y++)
+        {
+            cout << "W";
+        }
+
+        while (x++)
+        {
+            cout << "W";
+        }
+    }
+
     return 0;
 }
